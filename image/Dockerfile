@@ -8,5 +8,7 @@ RUN apt-get -y update \
        less \
        vim-tiny \
        psmisc \
+    && rm -f /container/file/dpkg_nodoc /etc/dpkg/dpkg.cfg.d/01_nodoc
+    && rm -f /container/file/dpkg_nolocales /etc/dpkg/dpkg.cfg.d/01_nolocales
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
