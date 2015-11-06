@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.11.3
+  - Upgrade baseimage: osixia/light-baseimage:0.1.3
+
 ## 0.11.2
   - Upgrade baseimage: osixia/light-baseimage:0.1.2
 
