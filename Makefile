@@ -1,5 +1,5 @@
 NAME = osixia/baseimage
-VERSION = 0.11.3
+VERSION = 0.11.4
 
 .PHONY: all build test tag_latest release
 
