@@ -1,4 +1,4 @@
-FROM osixia/light-baseimage:0.2.2
+FROM osixia/light-baseimage:0.2.4
 MAINTAINER Bertrand Gouny <bertrand.gouny@osixia.net>
 
 # Install curl less vim-tiny psmisc and clean all

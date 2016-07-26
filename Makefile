@@ -1,5 +1,5 @@
 NAME = osixia/baseimage
-VERSION = 0.12.1
+VERSION = 0.12.2
 
 .PHONY: all build build-nocache test tag_latest release
 
